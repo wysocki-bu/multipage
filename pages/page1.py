@@ -5,7 +5,7 @@ import numpy as np
 df = pd.read_csv('data/msft.csv')
 
 st.title("Page 1: Stock Dashboard")
-df
+st.dataframe(df)
 
 ticker = st.sidebar.text_input('Ticker')
 start_date = st.sidebar.date_input('Start Date')
