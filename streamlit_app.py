@@ -14,12 +14,16 @@ App_page_2 = st.Page(
     "pages/page2.py",
     title="Page 2"
 )
+App_page_3 = st.Page(
+    "pages/page3.py",
+    title="Page 3"
+)
 
 # **** Set up navigation with section headers ****
 pg = st.navigation(
     {
         "General": [App_page_0],
-        "Specific Pages": [App_page_1, App_page_2],
+        "Specific Pages": [App_page_1, App_page_2, App_page_2],
     }
 )
 
