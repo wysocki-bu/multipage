@@ -19,7 +19,7 @@ App_page_2 = st.Page(
 pg = st.navigation(
     {
         "General": [App_page_0],
-        "Specific Pages": [App_Page_1, App_Page_2],
+        "Specific Pages": [App_page_1, App_page_2],
     }
 )
 
