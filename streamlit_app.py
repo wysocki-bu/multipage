@@ -18,7 +18,7 @@ App_page_2 = st.Page(
 # **** Set up navigation with section headers ****
 pg = st.navigation(
     {
-        "General": [about_page],
+        "General": [App_page_0],
         "Specific Pages": [App_Page_1, App_Page_2],
     }
 )
