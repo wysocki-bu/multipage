@@ -4,7 +4,7 @@ st.title("Page 3")
 
 if 'data' in st.session_state:
    st.write("Closing Price Over Time:")
-   st.write(st.session_state.data.describe())
+   st.line_chart(st.session_state.data['Close'])
 else:
    st.write("No DataFrame found. Please create it in the 'Create DataFrame' page.")
 
