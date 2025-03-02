@@ -8,7 +8,7 @@ App_page_0 = st.Page(
 )
 App_page_1 = st.Page(
     "pages/page1.py",
-    title="Page 1"
+    title="Page 1: Stocks"
 )
 App_page_2 = st.Page(
     "pages/page2.py",
@@ -30,7 +30,7 @@ pg = st.navigation(
 
 # **** text/images shared on all pages ****
 # st.logo("files/name_of_file.png")
-st.sidebar.markdown("Text here")
+st.sidebar.markdown("Sidebar Prompts:")
 
 
 # **** Execute the navigation code ****
