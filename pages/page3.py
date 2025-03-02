@@ -13,3 +13,5 @@ else:
 #        st.line_chart(data['Close'])
 #    else:
 #        st.warning("Closing price data is not available for this stock.")
+
+#st.session_state.data = st.data_editor(st.session_state.data)
