@@ -5,9 +5,8 @@ st.title("Page 2: Stock Price Statistics")
 
 
 if 'data' in st.session_state:
-   df = st.session_state.data['data']
    st.write("Statistics of the DataFrame:")
-   st.write(df.describe())
+   st.write(st.session_state.data.describe())
 else:
    st.write("No stock data found. Please select stock on Main Page.")
 
