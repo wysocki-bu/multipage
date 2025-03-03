@@ -4,7 +4,7 @@ st.title("Page 3: Close Price data")
 
 if 'data' in st.session_state:
    st.write("Statistics of the DataFrame:")
-   cl_prc=st.session_state.data("Close")
+   cl_prc=st.session_state.data['Close']
    st.write(cl_prc)
 else:
    st.write("No stock data found. Please select stock on Main Page.")
