@@ -15,6 +15,8 @@ end_date = st.sidebar.date_input("End Date", value=pd.to_datetime("2024-12-31"))
 st.write(f"You have selected **{ticker_symbol}** from {start_date} to {end_date}.")
 st.write(f"Now click on Page 1, 2 or 3 to the left to view analyses.")
 
+st.markdown(''':red[Now click on] :blue-background[Page 1, 2 or 3] to the left to view analyses.''')
+
 df = yf.download(ticker_symbol, start=start_date, end=end_date)
 if df.empty:
    st.error("No data found. Please check the ticker symbol or date range.")
