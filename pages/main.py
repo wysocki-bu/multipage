@@ -4,7 +4,7 @@ import yfinance as yf
 
 # Page title
 st.title("Main Page: Please Select Stock")
-St.header("<---- Enter the Ticker Symbol in Left Sidebar")
+st.header("<---- Enter the Ticker Symbol in Left Sidebar")
 
 # Sidebar inputs
 ticker_symbol = st.sidebar.text_input("Enter Stock Ticker (e.g., AAPL, MSFT)", value="MSFT")
