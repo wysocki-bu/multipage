@@ -29,7 +29,6 @@ pg = st.navigation(
 
 
 # **** text/images shared on all pages ****
-# st.logo("files/name_of_file.png")
 st.sidebar.markdown("Sidebar Prompts:")
 
 
