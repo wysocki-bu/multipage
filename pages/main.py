@@ -3,8 +3,8 @@ import pandas as pd
 import yfinance as yf
 
 # Page title
-st.title("Main Page: Please Select Stock")
-st.header("<---- Enter the Ticker Symbol in Left Sidebar")
+st.title("Main Page: Please select a stock")
+st.header("<---- Enter the ticker symbol & dates in sidebar prompts.")
 
 # Sidebar inputs
 ticker_symbol = st.sidebar.text_input("Enter Stock Ticker (e.g., AAPL, MSFT)", value="MSFT")
